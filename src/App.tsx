@@ -147,7 +147,7 @@ const Hero = () => {
               className="mb-6 md:mb-12 max-w-2xl mx-auto rounded-3xl overflow-hidden shadow-2xl border border-white/10"
             >
               <img 
-                src="https://images.unsplash.com/photo-1516584566503-9d3bb778162f?auto=format&fit=crop&q=80&w=1200" 
+                src="https://i.ibb.co/F4pVPYN4/Chat-GPT-Image-25-de-fev-de-2026-13-36-25.png" 
                 alt="Terapia de Bolso" 
                 className="w-full h-auto"
                 referrerPolicy="no-referrer"
@@ -371,14 +371,14 @@ const Bonuses = () => {
       desc: "Uma lista curada de filmes e livros com técnicas e reflexões para restaurar a conexão e o diálogo na relação.",
       oldPrice: "R$ 97,00",
       newPrice: "R$ 0",
-      img: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=800"
+      img: "https://i.ibb.co/JjH2XGGg/Chat-GPT-Image-25-de-fev-de-2026-17-19-10.png"
     },
     {
       title: "12 PDFs de Técnicas",
       desc: "12 Pdfs exclusivos, com técnicas práticas e direcionadas para ajudar na restauração profunda da relação.",
       oldPrice: "R$ 197,00",
       newPrice: "R$ 0",
-      img: "https://images.unsplash.com/photo-1512428559083-a40ce10b8857?auto=format&fit=crop&q=80&w=800"
+      img: "https://i.ibb.co/bj1fcQxd/Chat-GPT-Image-25-de-fev-de-2026-17-20-57.png"
     }
   ];
 
@@ -445,7 +445,7 @@ const AboutMe = () => {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-[0_0_80px_rgba(167,139,250,0.2)] border border-white/10">
               <img 
-                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1000" 
+                src="https://i.ibb.co/ccvVPSKt/Chat-GPT-Image-25-de-fev-de-2026-17-24-58.png" 
                 alt="Dra. Karinne Bruno" 
                 className="w-full h-full object-cover grayscale-[20%] hover:grayscale-0 transition-all duration-1000"
                 referrerPolicy="no-referrer"
@@ -557,11 +557,11 @@ const Pricing = () => {
 
 const SocialProof = () => {
   const images = [
-    "https://images.unsplash.com/photo-1516584566503-9d3bb778162f?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
+    "https://i.ibb.co/gZ8PH7tt/p5.jpg",
+    "https://i.ibb.co/C3vMv11t/p4.jpg",
+    "https://i.ibb.co/RGgSFMZQ/p1.jpg",
+    "https://i.ibb.co/d01NrrNS/p2.jpg",
+    "https://i.ibb.co/dJKz2zqf/p3.jpg"
   ];
 
   return (
