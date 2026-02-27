@@ -220,11 +220,11 @@ const PainPoints = () => {
 
         <div className="grid md:grid-cols-2 gap-6 md:gap-8">
           {[
-            "Ele (a) esteja frio",
-            "Já tenha pedido separação",
+            "Ele esteja frio",
+            "Já tenha pedido divórcio",
             "Não queira terapia",
-            "Já tenha havido traição",
-            "Você já esteja cansado (a) de tentar."
+            "Já tenha saído de casa",
+            "Você esteja cansada de tentar"
           ].map((text, i) => (
             <div key={i} className="p-8 md:p-12 rounded-[32px] md:rounded-[40px] bg-white/5 border border-white/10 hover:bg-white/10 transition-all duration-500 group">
               <div className="flex items-start gap-6 md:gap-8">
@@ -250,7 +250,7 @@ const StrategicAction = () => {
         <div className="grid lg:grid-cols-2 gap-12 md:gap-24 items-center">
           <div>
             <h2 className="font-serif text-4xl md:text-6xl text-slate-900 mb-8 leading-[1.1] tracking-tight font-bold">
-              São técnicas únicas e exclusivas, onde você vai aplicar <span className="italic text-violet-400">sozinha (o).</span>
+              São técnicas únicas e exclusivas, onde você vai aplicar <span className="italic text-violet-400">sozinha.</span>
             </h2>
             <p className="text-xl text-slate-500 mb-10 font-light leading-relaxed">
               E seu parceiro vai sentir a diferença na mesma semana!
@@ -375,7 +375,7 @@ const Bonuses = () => {
     },
     {
       title: "12 PDFs de Técnicas",
-      desc: "12 Pdfs exclusivos, com técnicas práticas e direcionadas para ajudar na restauração profunda da relação.",
+      desc: "12 sessões de terapia em PDF para aplicar em casa. O mesmo protocolo usado na sessão direta com a Dra. Karinne",
       oldPrice: "R$ 197,00",
       newPrice: "R$ 0",
       img: "https://i.ibb.co/bj1fcQxd/Chat-GPT-Image-25-de-fev-de-2026-17-20-57.png"
@@ -463,7 +463,7 @@ const AboutMe = () => {
             <h2 className="font-serif text-4xl md:text-8xl mb-6 md:mb-12 leading-tight font-bold tracking-tighter">Dra. Karinne Bruno</h2>
             <div className="space-y-4 md:space-y-10 text-lg md:text-xl text-slate-400 leading-relaxed font-light">
               <p>
-                Sou Psicóloga, Psicanalista e Pedagoga, Pós graduada em Psicologia Analítica Junguiana. Já ajudei mais de 2.000 casais no Brasil e em mais de 14 países a reconquistarem a conexão que já havia se perdido.
+                Sou Psicóloga, Psicanalista e Sexóloga, Pós graduada em Psicologia Analítica Junguiana. Já ajudei mais de 2.000 casais no Brasil e em mais de 14 países a reconquistarem a conexão que já havia se perdido.
               </p>
               <div className="flex flex-wrap gap-6 md:gap-12 pt-4 md:pt-10">
                 <div className="flex flex-col items-center gap-2 md:gap-4">
@@ -540,9 +540,14 @@ const Pricing = () => {
             </div>
             <p className="text-slate-400 text-xs md:text-sm mb-8 md:mb-16 uppercase tracking-[0.3em] font-bold">ou em até 12x no cartão</p>
             
-            <button className="w-full bg-violet-400 text-white py-6 md:py-8 rounded-[24px] md:rounded-[32px] font-bold text-xs md:text-sm uppercase tracking-[0.3em] hover:bg-violet-500 transition-all shadow-[0_20px_60px_rgba(167,139,250,0.3)] mb-8 md:mb-10">
+            <a 
+              href="https://pay.kiwify.com.br/fsmum7Z"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full bg-violet-400 text-white py-6 md:py-8 rounded-[24px] md:rounded-[32px] font-bold text-xs md:text-sm uppercase tracking-[0.3em] hover:bg-violet-500 transition-all shadow-[0_20px_60px_rgba(167,139,250,0.3)] mb-8 md:mb-10 flex items-center justify-center"
+            >
               QUERO MEU ACESSO AGORA
-            </button>
+            </a>
             
             <div className="flex items-center gap-3 text-slate-300 text-[10px] md:text-xs font-bold uppercase tracking-[0.2em]">
               <ShieldCheck className="w-4 h-4 md:w-5 md:h-5" />
@@ -569,7 +574,7 @@ const SocialProof = () => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-8 md:mb-32">
           <span className="text-violet-400 font-bold uppercase tracking-[0.3em] text-[10px] md:text-xs mb-4 md:mb-8 block">Resultados Reais</span>
-          <h2 className="font-serif text-4xl md:text-7xl text-slate-900 mb-4 md:mb-6 font-bold tracking-tight">Provas Sociais</h2>
+          <h2 className="font-serif text-4xl md:text-7xl text-slate-900 mb-4 md:mb-6 font-bold tracking-tight">O que as pessoas dizem sobre o método</h2>
           <p className="text-slate-400 text-lg md:text-xl font-light">Veja o impacto do método na vida de quem já aplicou</p>
         </div>
 
